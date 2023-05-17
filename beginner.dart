@@ -1,4 +1,6 @@
 void main() {
+  master();
+  ana();
   print("This is my first project!!!");
   //print("") mesajı yazdırır
   print("this is" + " my first project");
@@ -44,3 +46,10 @@ void ana() {
     print("Yaşınız 18'den küçük.");
   }
 }
+
+void master() {
+  print("This is my first project!!");
+}
+ //diğer voidleri print edebilmek için main içine eklemek gerekiyor 
+
+  // "=" değer ataması yapar, "==" değer sorgulaması yapar
