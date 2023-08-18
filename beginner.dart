@@ -1,6 +1,7 @@
 void main() {
   master();
   ana();
+  fatArrow();
   print("This is my first project!!!");
   //print("") mesajı yazdırır
   print("this is" + " my first project");
@@ -50,6 +51,16 @@ void ana() {
 void master() {
   print("This is my first project!!");
 }
- //diğer voidleri print edebilmek için main içine eklemek gerekiyor 
+//diğer voidleri print edebilmek için main içine eklemek gerekiyor
 
-  // "=" değer ataması yapar, "==" değer sorgulaması yapar
+// "=" değer ataması yapar, "==" değer sorgulaması yapar
+
+void fatArrow() {
+  int add(int sayi1, int sayi2) {
+    return sayi1 + sayi2;
+  }
+
+  //sağ tarafındaki işlemin sonucunu döndüren bir fonksiyondur
+  //"=>" adı fat arrow  kısa ve anlamlı işlevler veya ifadeler oluşturmak için kullanılır
+  int toplam(int a, int b) => a + b;
+}
