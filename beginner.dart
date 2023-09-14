@@ -2,6 +2,8 @@ void main() {
   master();
   ana();
   fatArrow();
+  FixedLenghtList();
+
   print("This is my first project!!!");
   //print("") mesajı yazdırır
   print("this is" + " my first project");
@@ -64,3 +66,18 @@ void fatArrow() {
   //"=>" adı fat arrow  kısa ve anlamlı işlevler veya ifadeler oluşturmak için kullanılır
   int toplam(int a, int b) => a + b;
 }
+
+void FixedLenghtList() {
+  var liste = List<int>.filled(2, 0);
+  // Sabit uzunluklu bir liste oluşturuldu, boyutu 2 ve varsayılan değeri 0.
+
+  // İndekslerle doğrudan değer atama yapabilirsiniz:
+  liste[0] = 10;
+  liste[1] = 11;
+  //print(list);
+  print(liste.toString()); // [10, 11] çıktısını alırsınız.
+}
+
+
+/* parantezler hakkında;
+*/
